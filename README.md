@@ -5,9 +5,9 @@ AWS Shell Dockerized
 
 ## Docker run command
 
-´´´shell
+```shell
 docker run --rm -ti westerus/aws-shell
-´´´
+```
 
 ## Docker run variables
 
@@ -17,7 +17,7 @@ docker run --rm -ti westerus/aws-shell
 
 |Región|Nombre|
 |------|------|
-|Región EE.UU. Oeste (Oregón)	us-west-2|
+|Región EE.UU. Oeste (Oregón)|us-west-2|
 |EE.UU. Oeste (Norte de California)|us-west-1|
 |Región EE.UU Este (Ohio)|us-east-2|
 |Región EE.UU. Este (Norte de Virginia)|us-east-1|
@@ -35,8 +35,8 @@ docker run --rm -ti westerus/aws-shell
 |Región América del Sur (São Paulo)|sa-east-1|
 |AWS GovCloud (EE.UU.)|us-gov-west-1|
 
-**OUTPUT** (Output format none, text, json)
+**OUTPUT** (Output format: none, text, json)
 
-´´´shell
+```shell
 docker run --rm -ti -e ACCESSKEY=******** -e SECRETKEY=******** -e REGION=eu-west-1 -e OUTPUT=json westerus/aws-shell
-´´´
+```
